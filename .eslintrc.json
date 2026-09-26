@@ -1,0 +1,54 @@
+{
+  "env": {
+    "es2021": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "plugins": [
+    "react"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+  "react/jsx-uses-vars": "error",
+  "no-unused-vars": [
+    "error",
+    {
+      "varsIgnorePattern": "^React$"
+    }
+  ]
+},
+  "ignorePatterns": [
+    "week1/day1/code/**",
+    "week1/day2/code/**",
+    "week1/day3/code/**",
+    "week1/day4/code/**",
+    "week1/day5/code/**",
+    "week1/day6/code/**",
+    "week1/day7/code/**",
+    "week2/day8/**",
+    "week2/day9/**",
+    "week2/day10/**",
+    "week2/day11/**",
+    "week2/day12/**",
+    "week2/day13/**",
+    "week2/day14/**",
+    "week3/day15/**",
+    "week3/day16/**",
+    "week3/day17/**",
+    "week3/day18/**"
+  ]
+}
