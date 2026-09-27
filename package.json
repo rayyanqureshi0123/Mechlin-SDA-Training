@@ -8,7 +8,7 @@
     "dev": "nodemon server/index.js",
     "test": "jest",
     "test:watch": "jest --watch",
-    "lint": "eslint .",
+    "lint": "eslint . --no-error-on-unmatched-pattern",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "setup": "node scripts/setup.js",
