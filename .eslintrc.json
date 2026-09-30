@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended"],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "ignorePatterns": [
+    "week1/**",
+    "week2/**",
+    "week3/**",
+    "week5/**",
+    "week6/**",
+    "week7/**",
+    "week8/**",
+    "node_modules/**"
+  ]
+}
